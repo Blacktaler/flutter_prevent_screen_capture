@@ -1,5 +1,5 @@
 name: flutter_prevent_screen_capture
-description: A new Flutter plugin project.
+description: Flutter plugin to track the screen recording changes. It is possible to either check the screen status once only or regularly listen to the changes.
 version: 0.0.1
 repository: https://github.com/Blacktaler/flutter_prevent_screen_capture
 issue_tracker: https://github.com/Blacktaler/flutter_prevent_screen_capture/issues
