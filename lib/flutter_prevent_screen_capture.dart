@@ -8,7 +8,7 @@
 import 'package:flutter_prevent_screen_capture/flutter_prevent_screen_capture_platform_interface.dart';
 
 /// Control screen: Check or/and listen to the screen record activities.
-/// 
+///
 /// NOTE: Works on real devices only
 class FlutterPreventScreenCapture {
   ///Constructs singleton instance of [FlutterPreventScreenCapture]
@@ -26,20 +26,19 @@ class FlutterPreventScreenCapture {
     return FlutterPreventScreenCapturePlatform.instance;
   }
 
-  ///Listens the screen recording status. 
+  ///Listens the screen recording status.
   ///
   ///Triggered whenever the screen recording status of the device changes.
   Stream<bool> get screenRecordsIOS {
     return _platform.screenRecordsIOS;
   }
 
-
   ///Checks if the screen is being recorded or not
   ///Use this to check the screen record of the app.
   ///
   ///Works once only per use.
   ///In order to regularly listen to the status of the screen record,
-  ///listen the changes via[screenRecordsIOS] 
+  ///listen the changes via[screenRecordsIOS]
   Future<bool> checkScreenRecord() async {
     return _platform.checkScreenRecord();
   }
