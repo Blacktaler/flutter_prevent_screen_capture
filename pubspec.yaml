@@ -4,7 +4,7 @@ version: 0.0.2
 repository: https://github.com/Blacktaler/flutter_prevent_screen_capture
 issue_tracker: https://github.com/Blacktaler/flutter_prevent_screen_capture/issues
 environment:
-  sdk: '>=2.19.5 <4.0.0'
+  sdk: '>=2.17.3 <4.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
