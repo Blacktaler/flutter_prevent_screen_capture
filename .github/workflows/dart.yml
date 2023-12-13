@@ -23,6 +23,9 @@ jobs:
       # https://github.com/dart-lang/setup-dart/blob/main/README.md
       # - uses: dart-lang/setup-dart@v1
       - uses: flutter-actions/setup-flutter@v2
+        with:
+          channel: stable
+          version: 3.0.2
 
       - name: Install dependencies
         run: flutter pub get
